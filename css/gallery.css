@@ -1,0 +1,14 @@
+#gallery table {
+    border-collapse: collapse;
+}
+
+#gallery td {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+}
+#gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
